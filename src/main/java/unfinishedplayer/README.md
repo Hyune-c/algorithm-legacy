@@ -41,7 +41,7 @@ mislav는 참여자 명단에는 두 명이 있지만, 완주자 명단에는 �
     - value 가 1이면 remove 해줍니다.
     - value 가 1보다 크면 -1 해줍니다.
     
-## Junit Test    
+## Test    
 > UnfinishedplayerTest
 
 - public void before() 
