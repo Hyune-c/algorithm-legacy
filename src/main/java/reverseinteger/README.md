@@ -38,9 +38,9 @@ Assume we are dealing with an environment which could only store integers within
 ## Test    
 > SolutionTest
 
-###### public void before() 
+###### before() 
     
-###### public void after()
+###### after()
 
 ## 추가로 해볼 것
 - reverseByInteger 의 방어 로직이 여러번 들어가야 하는가? 줄일 수 있는 방법이 없는가?

@@ -46,10 +46,10 @@ mislav는 참여자 명단에는 두 명이 있지만, 완주자 명단에는 �
 ## Test    
 > UnfinishedplayerTest
 
-###### public void before()
+###### before()
 - participant, completion, result 선언.
     
-###### public void after()
+###### after()
 - participant, completion 출력.
 - arraySolution, hashSolution 를 각각 실행해주며 시간을 측정한다.
 
