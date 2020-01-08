@@ -60,6 +60,6 @@ mislav는 참여자 명단에는 두 명이 있지만, 완주자 명단에는 �
     - arraySolution : 255 ms, hashSolution : 17 ms
 
 ## 추가로 해볼 것
-- participant 과 completion 차가 1이 아니다.
+- participant 과 completion 차가 1 이 아닌 경우.
     - 완주하지 못한 선수가 다수 있을 경우.
 
