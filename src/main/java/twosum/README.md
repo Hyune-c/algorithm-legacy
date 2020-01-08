@@ -13,33 +13,17 @@ Because nums[0] + nums[1] = 2 + 7 = 9,
 return [0, 1].
 
 ## 풀이
-> StringCompression 
-###### splitN 
-- 입력받은 문자열을 단위에 맞게 자른 String array 를 만듭니다.
+###### twoSumByDoubleFor 
+- 이중 for 문을 통하여 모든 배열을 검사 합니다.
 
-###### makeMinString 
-- String array 를 위 조건에 맞게 압축하여 결과 String 을 만듭니다.
-
-###### getMinLength 
-- 만들어진 결과 String 중 가장 짧은 길이를 가져옵니다.
+###### twoSum 
+- HashMap seen 을 만듭니다.
+    - nums 중 이미 본 값을 <value, key> 순으로 넣어주게 됩니다.
+- nums 배열을 돌면서 'target - index 의 값' 이 seen 배열에 존재하는지 확인합니다.
+    - 존재한다면 혹시 같은 index 의 값인지 비교 후 아니라면 정답으로 출력합니다.
+    - 존재하지 않는다면 해당 값은 seen 에 넣어줍니다.   
 
 ## Test    
-> UnfinishedplayerTest
-
-###### before() 
-- participant, completion, result 선언.
-    
-###### after()
-- participant, completion 출력.
-- arraySolution, hashSolution 를 각각 실행해주며 시간을 측정한다.
-
-###### Test6
-- 이미 정렬된 최대 입력 값으로 들어올 때를 테스트. 
-- arraySolution : 37 ms, hashSolution : 73 ms
-
-###### Test7
-- 정렬되지 않은 최대 입력 값으로 들어올 때를 테스트.
-- arraySolution : 255 ms, hashSolution : 17 ms
 
 ## 추가로 해볼 것
-- junit 의 리팩토링. 
+ 
