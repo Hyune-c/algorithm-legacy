@@ -70,20 +70,4 @@ public class Solution {
 
         return sc.getMinLength();
     }
-
-    public static void main(String[] args) {
-        Solution sol = new Solution();
-
-        String[] arr = {"aabbaccc", "ababcdcdababcdcd", "abcabcdede", "abcabcabcabcdededededede", "xababcdcdababcdcd"};
-        int[] result = new int[arr.length];
-
-
-        for (int i = 0; i < arr.length; i++) {
-            result[i] = sol.solution(arr[i]);
-        }
-
-        for (int r : result) {
-            System.out.println(r);
-        }
-    }
 }
