@@ -1,4 +1,5 @@
-# programmers : 완주하지 못한 선수
+# programmers : 완주하지 못한 선수   
+[링크](https://programmers.co.kr/learn/courses/30/lessons/42576)
 
 ## 문제 설명
 수많은 마라톤 선수들이 마라톤에 참여하였습니다.  
