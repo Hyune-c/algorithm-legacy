@@ -30,12 +30,13 @@ vinko는 참여자 명단에는 있지만, 완주자 명단에는 없기 때문�
 mislav는 참여자 명단에는 두 명이 있지만, 완주자 명단에는 한 명밖에 없기 때문에 한명은 완주하지 못했습니다.
 
 ## 풀이
-> arraySolution
+###### arraySolution
 
 - participant 와 completion 를 정렬한다.
 - 동일한 index 에 같은 값이 존재하지 않는 케이스를 찾아 리턴합니다.
  
-> hashSolution
+###### hashSolution
+
 - participantHashMap 을 만듭니다.
     - participant 가 중복되는 경우 HashMap 의 value 를 +1 해줍니다.
 - completion 에 이름이 있는 선수를 participantHashMap 에서 지워줍니다.
@@ -45,20 +46,20 @@ mislav는 참여자 명단에는 두 명이 있지만, 완주자 명단에는 �
 ## Test    
 > UnfinishedplayerTest
 
-- public void before() 
-    - participant, completion, result 선언.
+###### public void before()
+- participant, completion, result 선언.
     
-- public void after()
-    - participant, completion 출력.
-    - arraySolution, hashSolution 를 각각 실행해주며 시간을 측정한다.
+###### public void after()
+- participant, completion 출력.
+- arraySolution, hashSolution 를 각각 실행해주며 시간을 측정한다.
 
-- Test6
-    - 이미 정렬된 최대 입력 값으로 들어올 때를 테스트. 
-    - arraySolution : 37 ms, hashSolution : 73 ms
+###### Test6
+- 이미 정렬된 최대 입력 값으로 들어올 때를 테스트. 
+- arraySolution : 37 ms, hashSolution : 73 ms
 
-- Test7
-    - 정렬되지 않은 최대 입력 값으로 들어올 때를 테스트.
-    - arraySolution : 255 ms, hashSolution : 17 ms
+###### Test7
+- 정렬되지 않은 최대 입력 값으로 들어올 때를 테스트.
+- arraySolution : 255 ms, hashSolution : 17 ms
 
 ## 추가로 해볼 것
 - participant 과 completion 차가 1 이 아닌 경우.
