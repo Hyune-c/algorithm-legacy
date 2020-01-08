@@ -6,3 +6,4 @@
  
 ## leetcode [링크](https://leetcode.com/)
 [Reverse Integer](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/reverseinteger)
+[Two Sum](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/twosum)
