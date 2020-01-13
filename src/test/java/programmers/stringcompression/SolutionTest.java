@@ -1,4 +1,4 @@
-package stringcompression;
+package programmers.stringcompression;
 
 import org.junit.After;
 import org.junit.Before;

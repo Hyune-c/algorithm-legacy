@@ -1,4 +1,4 @@
-package unfinishedplayer;
+package programmers.unfinishedplayer;
 
 import java.util.Arrays;
 import java.util.HashMap;

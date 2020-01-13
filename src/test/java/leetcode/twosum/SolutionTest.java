@@ -1,4 +1,4 @@
-package twosum;
+package leetcode.twosum;
 
 import org.junit.After;
 import org.junit.Before;

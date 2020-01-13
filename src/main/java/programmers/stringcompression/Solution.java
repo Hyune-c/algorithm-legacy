@@ -1,4 +1,4 @@
-package stringcompression;
+package programmers.stringcompression;
 
 import java.util.Arrays;
 

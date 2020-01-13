@@ -1,4 +1,4 @@
-package reverseinteger;
+package leetcode.reverseinteger;
 
 public class Solution {
     public int reverse(int x) {

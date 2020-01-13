@@ -1,4 +1,4 @@
-package unfinishedplayer;
+package programmers.unfinishedplayer;
 
 import org.junit.After;
 import org.junit.Before;
