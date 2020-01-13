@@ -1,4 +1,4 @@
-# Reverse Integer   
+# 7. Reverse Integer   
 [링크](https://leetcode.com/problems/reverse-integer/)
 
 ## 문제 설명

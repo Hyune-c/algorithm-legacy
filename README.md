@@ -6,6 +6,6 @@
 [문자열 압축](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/programmers/stringcompression)
  
 ## leetcode [링크](https://leetcode.com/)
-[Reverse Integer](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/reverseinteger)  
-[Two Sum](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/twosum)
-[#20 Valid Parentheses](https://leetcode.com/problems/valid-parentheses/)
+[#7 Reverse Integer](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/reverseinteger)  
+[#1 Two Sum](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/twosum)  
+[#20 Valid Parentheses](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/validparentheses)

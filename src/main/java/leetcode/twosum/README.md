@@ -1,4 +1,4 @@
-# Two Sum
+# 1. Two Sum
 [링크](https://leetcode.com/problems/two-sum/)
 
 ## 문제 설명
