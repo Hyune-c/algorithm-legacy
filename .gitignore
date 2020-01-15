@@ -1,2 +1,5 @@
 # Project exclude paths
-/target/
+pom.xml
+/target
+.gitignore
+src/main/resources/
