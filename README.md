@@ -18,5 +18,5 @@
 [#20 Valid Parentheses](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/validparentheses)
 
 
-# baekjoon/sortingnumbers3
+# baekjoon
 [#10989 수 정렬하기 3](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/baekjoon/sortingnumbers3)
