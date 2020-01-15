@@ -2,40 +2,24 @@ package programmers.knumber;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 
 public class Solution {
-    public int[] solution(int[] array, int[][] commands) {
-        ArrayList<Integer> arrayList = new ArrayList<Integer>();
+    public Integer kNumber(int[] array, int splitBegin, int splitEnd, int k) {
+        int[] tmpArr = Arrays.copyOfRange(array, splitBegin, splitEnd);
+        Arrays.sort(tmpArr);
 
-        for (int[] command : commands) {
-            int[] tmp = Arrays.copyOfRange(array, command[0] - 1, command[1]);
-            Arrays.sort(tmp);
-
-            arrayList.add(tmp[command[2] - 1]);
-        }
-
-        int[] result = new int[arrayList.size()];
-        int size = 0;
-        for (int temp : arrayList) {
-            result[size++] = temp;
-        }
-
-        return result;
+        return tmpArr[k - 1];
     }
 
-    public static void main(String[] args) {
-        Solution sol = new Solution();
+    public int[] solution(int[] array, int[][] cmds) {
+        List<Integer> resultList = new ArrayList<>();
 
-        int[] array = {1, 5, 2, 6, 3, 7, 4};
-        int[][] commands = {{2, 5, 3}, {4, 4, 1}, {1, 7, 3}};
-        //, {4, 4, 1}, {1, 7, 3}
-        //[5, 6, 3]
-
-        int[] a = sol.solution(array, commands);
-
-        for(int i : a){
-            System.out.println(i);
+        for (int[] cmd : cmds) {
+            resultList.add(kNumber(array, cmd[0] - 1, cmd[1], cmd[2]));
         }
+
+        return resultList.stream().mapToInt(Integer::intValue).toArray();
     }
 }
 

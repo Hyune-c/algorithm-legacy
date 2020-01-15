@@ -60,6 +60,7 @@ s	result
 ###### getMinLength 
 - 만들어진 결과 String 중 가장 짧은 길이를 가져옵니다.
 
+
 ## Test    
 > UnfinishedplayerTest
 
@@ -77,6 +78,7 @@ s	result
 ###### Test7
 - 정렬되지 않은 최대 입력 값으로 들어올 때를 테스트.
 - arraySolution : 255 ms, hashSolution : 17 ms
+
 
 ## 추가로 해볼 것
 - junit 의 리팩토링. 
