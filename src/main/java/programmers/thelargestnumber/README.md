@@ -22,22 +22,15 @@ numbers	return
 
 
 ## 풀이
-- Arrays.copyOfRange 를 사용하여 slice 된 배열을 만듭니다.
-- Arrays.sort 를 사용하여 배열을 정렬합니다.
-
-
-## 풀이
 > Solution
-###### public Integer kNumber(int[] array, int begin, int end, int k)
 
-- 원본 array 와 splitBegin, splitEnd 를 받아 k 번째 값을 return 합니다.
+###### public String solution(int[] numbers)
+- numbers 를 String 배열로 바꿔준 후 정렬을 수행합니다.
+    - 이 때 스트링의 자리를 서로 바꿔 더하여 비교함으로 더 큰 결과를 찾을 수 있다.
 
-###### public int[] solution(int[] array, int[][] cmds)
-- kNumber 를 들어온 입력 값 만큼 실행하여 resultList 에 넣어줍니다.
-- resultList 를 stream 을 통해 return 해줍니다.
-     
-    
+
 ## Test    
 
 
 ## 추가로 해볼 것
+- baekjoon 테스트 케이스 만드는 법 정리할 것.
