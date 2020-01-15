@@ -5,7 +5,7 @@
 > Level1
 
 [완주하지 못한 선수](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/programmers/unfinishedplayer)  
-[문자열 압축](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/programmers/stringcompression)
+[문자열 압축](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/programmers/stringcompression)  
 [Knumber](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/programmers/knumber)
 
 > Level2
