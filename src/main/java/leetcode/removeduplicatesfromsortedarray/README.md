@@ -38,29 +38,13 @@ for (int i = 0; i < len; i++) {
 }
 
 ## 풀이
-###### reverse
-- reverseByInteger 를 사용하는 경우 reverse 한 값을 다시 reverse 하여 비교하는 것으로 검증합니다.
-    - x 의 1의 자리가 0으로 들어올 수 있기에 이를 보정하는 로직을 넣어줍니다.
+> Solution
+###### public int removeDuplicates(int[] nums)
+- nums 배열을 순회하면서 index 의 값보다 큰 경우 index+1 에 값을 가져온다.
+    - 이미 정렬이 된 배열임으로 뒤로 갈수록 큰 수만 나오며, return 값이 곧 length 임으로 swap 의 필요성도 없다.
 
-###### reverseByString
-- x 를 절대값 처리 후 toCharArray() 를 통해서 charStringX 배열을 만듭니다.
-- charStringX 를 역순으로 정렬하여 result 를 만듭니다.
-- x 가 음수면 result 에 음수를 붙여줍니다.
-- Integer.parseInt 시 try-catch 문을 통해 오버플로우를 방지합니다.
- 
-###### reverseByInteger
-- x 를 절대값 처리 후 나머지 값을 이용한 방법으로 reverse 를 구합니다.
-- 오버플로우가 예상되는 부분에 방어 로직을 넣어줍니다.
-    
+
 ## Test    
-> SolutionTest
 
-###### before() 
-    
-###### after()
 
 ## 추가로 해볼 것
-- reverseByInteger 의 방어 로직이 여러번 들어가야 하는가? 줄일 수 있는 방법이 없는가?
-    
-- junit 의 리팩토링. assert 사용해보기.
-
