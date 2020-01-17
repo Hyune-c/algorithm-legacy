@@ -42,7 +42,7 @@ class SolutionTest {
         l1 = initListNode(input);
         l2 = initListNode(input2);
 
-        returnHeadNode = sol.mergeSort(l1, l2);
+        returnHeadNode = sol.mergeTwoLists(l1, l2);
 
         System.out.println();
     }
@@ -54,7 +54,7 @@ class SolutionTest {
         l1 = initListNode(input);
         l2 = initListNode(input2);
 
-        returnHeadNode = sol.mergeSort(l1, l2);
+        returnHeadNode = sol.mergeTwoLists(l1, l2);
         System.out.println();
     }
 
@@ -65,7 +65,7 @@ class SolutionTest {
         l1 = initListNode(input);
         l2 = initListNode(input2);
 
-        returnHeadNode = sol.mergeSort(l1, l2);
+        returnHeadNode = sol.mergeTwoLists(l1, l2);
         System.out.println();
     }
 
@@ -76,7 +76,7 @@ class SolutionTest {
         l1 = initListNode(input);
         l2 = initListNode(input2);
 
-        returnHeadNode = sol.mergeSort(l1, l2);
+        returnHeadNode = sol.mergeTwoLists(l1, l2);
         System.out.println();
     }
 }
