@@ -1,19 +1,37 @@
 package leetcode.maximumsubarray;
 
-import leetcode.mergetwosortedlists.ListNode;
+import java.util.Arrays;
 
 public class Solution {
-    public static ListNode mergeTwoLists(ListNode l1, ListNode l2) {
-        if (l2 == null) {
-            return l1;
-        } else if (l1 == null) {
-            return l2;
-        } else if (l1.val <= l2.val) {
-            l1.next = mergeTwoLists(l1.next, l2);
-            return l1;
-        } else {
-            l2.next = mergeTwoLists(l2.next, l1);
-            return l2;
+//    Input: [-2,1,-3,4,-1,2,1,-5,4],
+//    Input: [1,-3,4],
+//    input = new int[]{1, -3, 4, -3, 10};
+
+//    private int[] redefineArr(int[] nums) {
+//        if (nums == null) return null;
+//        int[] returnArr = Arrays.stream(nums).filter(i -> i != 0).toArray();
+//
+//
+//    }
+
+    public int maxSubArray(int[] nums) {
+        int maxSum = 0;
+        int nowSum = 0;
+        int underMaxSum = 0;
+
+        if (nums.length == 1) return nums[0];
+
+        for (int i = 0; i < nums.length; i++) {
+            if (nums[i] < 1) continue;
+
+            nowSum += nums[i];
+
+            if (nums[i] > 0) {
+                underMaxSum = maxSubArray(Arrays.copyOfRange(nums, (i == nums.length - 1) ? i : i + 1, nums.length));
+                maxSum = (nowSum > underMaxSum) ? nowSum : underMaxSum;
+            }
         }
+
+        return maxSum;
     }
 }
