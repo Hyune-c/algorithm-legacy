@@ -1,6 +1,7 @@
 # 20. Valid Parentheses
 [링크](https://leetcode.com/problems/valid-parentheses/)
 
+
 ## 문제 설명
 Given a string containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid.
 
@@ -11,38 +12,41 @@ An input string is valid if:
 
 Note that an empty string is also considered valid.
 
-Example 1:
+> Example 1:
 ```
 Input: "()"  
 Output: true  
 ```
 
-Example 2:
+> Example 2:
 ```
 Input: "()[]{}"  
 Output: true  
 ```
 
-Example 3:
+> Example 3:
 ```
 Input: "(]"
 Output: false
 ```
 
-Example 4:
+> Example 4:
 ```
 Input: "([)]"
 Output: false
 ```
 
-Example 5:
+> Example 5:
 ```
 Input: "{[]}"
 Output: true
 ```
+
+
 ## 풀이
 ###### public boolean isMatchedBracket(char bracket1, char bracket2) 
 - 괄호의 쌍이 맞는지 검사합니다.
+
 
 ###### public boolean isValid(String s) 
 - 입력값을 앞부터 검사하여 열린 괄호인 경우 bracketsQueue 에 add 해줍니다.
@@ -52,6 +56,7 @@ Output: true
  
 
 ## Test    
+
 
 ## 추가로 해볼 것
  

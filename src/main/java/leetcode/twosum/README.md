@@ -1,16 +1,18 @@
 # 1. Two Sum
 [링크](https://leetcode.com/problems/two-sum/)
 
+
 ## 문제 설명
 Given an array of integers, return indices of the two numbers such that they add up to a specific target.  
 You may assume that each input would have exactly one solution, and you may not use the same element twice.
 
-Example:
+> Example:
 
 Given nums = [2, 7, 11, 15], target = 9,
 
 Because nums[0] + nums[1] = 2 + 7 = 9,  
 return [0, 1].
+
 
 ## 풀이
 ###### twoSumByDoubleFor 
@@ -24,6 +26,7 @@ return [0, 1].
     - 존재하지 않는다면 해당 값은 seen 에 넣어줍니다.   
 
 ## Test    
+
 
 ## 추가로 해볼 것
  
