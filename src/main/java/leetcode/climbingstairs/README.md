@@ -30,14 +30,20 @@ Explanation: There are three ways to climb to the top.
 ## 풀이
 > Solution
 
-###### static int way[];
+###### static int way[]
+- 해당 index 로 갈 수 있는 way 의 수를 저장한 배열 입니다.
  
+###### private void init(int n) 
+- way 의 초기 값을 지정하는 메서드입니다.
+               
+###### public int climbStairs(int n) 
+- way 의 초기 값을 기준으로 way 를 계산합니다.
 
-###### private void init(int n)
-###### public int climbStairs(int n)
 
 ## Test    
 > SolutionTest
 
 
-## 추가로 해볼 것
+## 그외
+- 다른 코드 중에는 2개의 변수를 갱신하는 방법으로 구하는 코드도 있었습니다.
+하지만 저는 way 를 직관적으로 보여주고 출력하는 것이 더 좋다고 생각하여 이렇게 작성하였습니다. 
