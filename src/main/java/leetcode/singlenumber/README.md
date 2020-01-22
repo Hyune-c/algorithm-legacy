@@ -24,9 +24,16 @@ Output: 4
 ## 풀이
 > Solution
 
-###### public boolean isHappy(int n)
-- 같은 수가 반복되는 경우 happynunber 가 아닙니다.
-- HashSet 을 이용해서 이미 본 수를 기록하고 반복문마다 HashSet 에 존재 여부를 확인합니다. 
+###### public int singleNumber_linearSearch(int[] nums) 
+- 모든 값을 검사하여 처음에는 HashSet 에 넣고, HashSet 에 값이 존재하면 지우는 로직으로 최종적으로 남는 1개의 값을 return 합니다.
+- HashSet 으로 인한 메모리 사용과 add, remove 의 반복으로 인한 속도 지연이 발생하였습니다.  
+
+###### public int singleNumber_sort(int[] nums) 
+- 입력 값을 정렬 후 똑같은 수가 반복되지 않으면 그 값이 singlenumber 입니다.
+- 정렬에 대한 비용이 듭니다.  
+
+###### public int singleNumber(int[] nums)
+- XOR 연산자를 사용하는 경우 같은 수는 서로 상쇄됨으로 최종적으로 한개의 수만 남습니다. 
 
 
 ## Test    
