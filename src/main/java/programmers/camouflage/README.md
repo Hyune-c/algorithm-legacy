@@ -23,8 +23,9 @@ clothes의 모든 원소는 문자열로 이루어져 있습니다.
 스파이는 하루에 최소 한 개의 의상은 입습니다.
 
 ## 입출력 예
-clothes	return  
-[[yellow_hat, headgear], [blue_sunglasses, eyewear], [green_turban, headgear]]	5  
+
+clothes	return    
+[[yellow_hat, headgear], [blue_sunglasses, eyewear], [green_turban, headgear]]	5   
 [[crow_mask, face], [blue_sunglasses, face], [smoky_makeup, face]]	3  
 
 ## 입출력 예 설명
@@ -45,3 +46,17 @@ face에 해당하는 의상이 crow_mask, blue_sunglasses, smoky_makeup이므로
 1. crow_mask
 2. blue_sunglasses
 3. smoky_makeup
+
+
+## 풀이
+> Solution
+###### public int solution(String[][] clothes)
+
+- clothes 로부터 옷의 종류별 개수를 HashMap 형태로 만듭니다.
+- 각 옷의 개수 + 1 (옷을 입지 않는 경우) 을 서로 곱한 후 옷을 모두 입지 않은 1개의 경우를 제외합니다.
+     
+    
+## Test    
+
+
+## 그 외

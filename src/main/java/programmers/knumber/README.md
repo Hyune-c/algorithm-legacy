@@ -31,11 +31,6 @@ array	commands	return
 
 
 ## 풀이
-- Arrays.copyOfRange 를 사용하여 slice 된 배열을 만듭니다.
-- Arrays.sort 를 사용하여 배열을 정렬합니다.
-
-
-## 풀이
 > Solution
 ###### public Integer kNumber(int[] array, int begin, int end, int k)
 
@@ -49,4 +44,4 @@ array	commands	return
 ## Test    
 
 
-## 추가로 해볼 것
+## 그 외

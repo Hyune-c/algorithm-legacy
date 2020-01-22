@@ -1,29 +1,21 @@
 package programmers.camouflage;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 public class Solution {
     public int solution(String[][] clothes) {
-        int answer = 0;
-
-        Map<String, List<String>> clothesMap = new HashMap<String, List<String>>();
-        List<String> clothList;
+        Map<String, Integer> typesOfClothes = new HashMap();
 
         for (String[] cloth : clothes) {
-            clothList = new ArrayList<String>();
-
-            if (clothesMap.containsKey(cloth[1])) {
-                clothList = clothesMap.get(cloth[1]);
-            } else {
-                clothesMap.put(cloth[1], clothList);
-            }
-
-            clothList.add(cloth[0]);
+            String clothType = cloth[1];
+            typesOfClothes.put(clothType, (typesOfClothes.containsKey(clothType)) ? typesOfClothes.get(clothType) + 1 : 1);
         }
 
-        return answer;
+        int result = 1;
+        for (int value : typesOfClothes.values()) {
+            result *= value + 1;
+        }
+
+        return result - 1;
     }
 }
