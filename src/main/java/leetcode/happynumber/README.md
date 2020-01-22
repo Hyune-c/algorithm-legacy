@@ -23,8 +23,8 @@ Explanation:
 > Solution
 
 ###### public boolean isHappy(int n)
-- 같은 수가 반복되는 경우 happynunber 가 아니다.
-- HashSet 을 이용해서 이미 본 수를 기록하고 반복문마다 HashSet 에 존재 여부를 확인한다. 
+- 같은 수가 반복되는 경우 happynunber 가 아닙니다.
+- HashSet 을 이용해서 이미 본 수를 기록하고 반복문마다 HashSet 에 존재 여부를 확인합니다. 
 
 
 ## Test    
