@@ -27,7 +27,7 @@ class HappynumberTest {
     @Test
     void isHappy_7() {
         input = 7;
-        expected = true
+        expected = true;
 
         assertEquals(expected, sol.isHappy(input));
     }
