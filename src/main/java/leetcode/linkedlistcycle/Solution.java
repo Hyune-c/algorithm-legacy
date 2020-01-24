@@ -1,18 +1,24 @@
 package leetcode.linkedlistcycle;
 
-import java.util.HashSet;
-import java.util.Set;
 
 public class Solution {
-    Set<ListNode> seen = new HashSet<>();
-
     public boolean hasCycle(ListNode head) {
-        if (seen.contains(head)) return true;
-        else if (head == null) return false;
-        else {
-            seen.add(head);
-            return hasCycle(head.next);
+        if (head == null || head.next == null) {
+            return false;
         }
+
+        ListNode walker = head;
+        ListNode runner = head.next;
+
+        while (runner != null && runner.next != null) {
+            if (walker == runner) {
+                return true;
+            }
+            walker = walker.next;
+            runner = runner.next.next;
+        }
+        
+        return false;
     }
 }
 

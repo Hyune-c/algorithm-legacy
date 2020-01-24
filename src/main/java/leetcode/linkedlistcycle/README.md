@@ -38,15 +38,11 @@ Can you solve it using O(1) (i.e. constant) memory?
 
 
 ## 풀이
-###### twoSumByDoubleFor 
-- 이중 for 문을 통하여 모든 배열을 검사 합니다.
+###### public boolean hasCycle(ListNode head) 
+- walker 가 n 만큼 갈 때, runner 는 2n 만큼 노드를 순회합니다.
+    - 순환되는 list 라면 n 이 순환되는 노드의 길이와 같아질 때 runner 와 walker 는 같게 됩니다.
+    - 순환되지 않는 list 라면 runner 는 null 을 만나게 됩니다.
 
-###### twoSum 
-- HashMap seen 을 만듭니다.
-    - nums 중 이미 본 값을 <value, key> 순으로 넣어주게 됩니다.
-- nums 배열을 돌면서 'target - index 의 값' 이 seen 배열에 존재하는지 확인합니다.
-    - 존재한다면 혹시 같은 index 의 값인지 비교 후 아니라면 정답으로 출력합니다.
-    - 존재하지 않는다면 해당 값은 seen 에 넣어줍니다.   
 
 ## Test    
 
