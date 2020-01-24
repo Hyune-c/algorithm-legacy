@@ -1,6 +1,5 @@
 package leetcode.linkedlistcycle;
 
-
 public class Solution {
     public boolean hasCycle(ListNode head) {
         if (head == null || head.next == null) {
@@ -17,7 +16,7 @@ public class Solution {
             walker = walker.next;
             runner = runner.next.next;
         }
-        
+
         return false;
     }
 }
