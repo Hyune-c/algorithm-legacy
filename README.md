@@ -23,7 +23,7 @@
 [136. Single Number](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/singlenumber)  
 [141. Linked List Cycle](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/linkedlistcycle)  
 [155. Min Stack](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/minstack)  
-[160. Intersection of Two Linked Lists](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/intersectionoftwolinkedlists)
+[160. Intersection of Two Linked Lists](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/intersectionoftwolinkedlists)  
 [169. Majority Element ](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/majorityelement)  
 [202. Happy Number](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/happynumber)
 
