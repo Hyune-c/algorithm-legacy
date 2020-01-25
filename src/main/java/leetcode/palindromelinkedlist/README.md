@@ -21,7 +21,7 @@ Could you do it in O(n) time and O(1) space?
 
 ## 풀이
 ###### public boolean isPalindrome(ListNode head)
-입력 값을 deque 에 받은 후 deque 의 양쪽에서 값을 빼서 비교하면 대칭임을 확인할 수 있습니다.
+입력 값을 deque 에 받은 후 deque 가 비거나 값이 한개가 남을 때까지 각 끝의 값을 비교하면 대칭을 확인할 수 있습니다.
 
     
 ## Test    
