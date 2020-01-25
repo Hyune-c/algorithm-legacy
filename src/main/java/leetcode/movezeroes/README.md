@@ -16,8 +16,9 @@ You must do this in-place without making a copy of the array.
 Minimize the total number of operations.
 
 ## 풀이
-###### public boolean isPalindrome(ListNode head)
-
+###### public void moveZeroes(int[] nums)
+새로 만들 nums 의 index 를 지정한 후 nums 를 순회하면서 0 이 아닌 값이 나오면 index 에 맞춰 덮어씌움으로서 0의 값을 없애면서 nums 의 순서를 유지할 수 있습니다.  
+그리고 나머지를 0으로 채우면 됩니다.
     
 ## Test    
 > SolutionTest
