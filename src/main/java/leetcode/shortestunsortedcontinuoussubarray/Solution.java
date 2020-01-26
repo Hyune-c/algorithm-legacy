@@ -8,7 +8,7 @@ class Solution {
         Arrays.sort(sortedNums);
 
         int begin = -1;
-        int end = -1;
+        int end = -2;
 
         for (int i = 0; i < nums.length; i++) {
             if (nums[i] != sortedNums[i]) {
@@ -17,6 +17,6 @@ class Solution {
             }
         }
 
-        return (begin == -1 && end == -1) ? 0 : end - begin + 1;
+        return end - begin + 1;
     }
 }

@@ -30,14 +30,17 @@
 [234. Palindrome Linked List](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/palindromelinkedlist)  
 [283. Move Zeroes](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/movezeroes)  
 [448. Find All Numbers Disappeared in an Array](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/findallnumbersdisappearedinanarray)
+
+> Try It Again
+
 [581. Shortest Unsorted Continuous Subarray](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/shortestunsortedcontinuoussubarray)
 
-> 미완성
+> Unfinished
 
 [53. Maximum Subarray](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/maximumsubarray)  
 [198. House Robber](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/houserobber)  
 [206. Reverse Linked List](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/reverselinkedlist)
 
 
-# baekjoon
+# baekjoon [링크](https://www.acmicpc.net/)
 [10989. 수 정렬하기 3](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/baekjoon/sortingnumbers3)

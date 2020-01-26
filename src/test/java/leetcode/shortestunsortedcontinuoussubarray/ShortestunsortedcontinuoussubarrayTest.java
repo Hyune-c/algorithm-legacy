@@ -31,5 +31,27 @@ class ShortestunsortedcontinuoussubarrayTest {
         assertEquals(expected, sol.findUnsortedSubarray(input));
     }
 
+    @Test
+    void findUnsortedSubarray3() {
+        input = new int[]{2, 1};
+        expected = 2;
 
+        assertEquals(expected, sol.findUnsortedSubarray(input));
+    }
+
+    @Test
+    void findUnsortedSubarray4() {
+        input = new int[]{3, 2, 1};
+        expected = 3;
+
+        assertEquals(expected, sol.findUnsortedSubarray(input));
+    }
+
+    @Test
+    void findUnsortedSubarray5() {
+        input = new int[]{1, 3, 2, 2, 2};
+        expected = 4;
+
+        assertEquals(expected, sol.findUnsortedSubarray(input));
+    }
 }
