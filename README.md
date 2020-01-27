@@ -32,7 +32,8 @@
 [160. Intersection of Two Linked Lists](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/intersectionoftwolinkedlists)  
 [169. Majority Element ](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/majorityelement)  
 [198. House Robber](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/houserobber)    
-[202. Happy Number](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/happynumber)  
+[202. Happy Number](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/happynumber)
+[206. Reverse Linked List](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/reverselinkedlist)  
 [234. Palindrome Linked List](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/palindromelinkedlist)  
 [283. Move Zeroes](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/movezeroes)  
 [448. Find All Numbers Disappeared in an Array](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/findallnumbersdisappearedinanarray)
@@ -44,7 +45,6 @@
 > Unfinished
   
 [198. House Robber](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/houserobber)  
-[206. Reverse Linked List](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/reverselinkedlist)
 
 
 # baekjoon [링크](https://www.acmicpc.net/)
