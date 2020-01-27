@@ -21,6 +21,9 @@ which is more subtle.
 
 ## 풀이
 > Solution
+######  public int maxSubArray(int[] nums)
+- sum = Math.max(0, sum) + nums[i];
+    - sum 값이 0 보다 작은 경우, max 를 구하기 위한 subarray 를 다시 시작하게 됩니다.
 
 
 ## Test    

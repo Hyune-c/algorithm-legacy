@@ -18,6 +18,7 @@
 [7. Reverse Integer](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/reverseinteger)  
 [20. Valid Parentheses](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/validparentheses)  
 [26. Remove Duplicates from Sorted Array](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/mergetwosortedlists)  
+[53. Maximum Subarray](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/maximumsubarray)  
 [104. Maximum Depth of Binary Tree](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/maximumdepthofbinarytree)    
 [121. Best Time to Buy and Sell Stock](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/besttimetobuyandsellstock)  
 [136. Single Number](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/singlenumber)  
@@ -36,8 +37,7 @@
 [581. Shortest Unsorted Continuous Subarray](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/shortestunsortedcontinuoussubarray)
 
 > Unfinished
-
-[53. Maximum Subarray](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/maximumsubarray)  
+  
 [198. House Robber](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/houserobber)  
 [206. Reverse Linked List](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/reverselinkedlist)
 
