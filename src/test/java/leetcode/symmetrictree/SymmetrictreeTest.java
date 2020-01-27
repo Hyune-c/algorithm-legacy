@@ -6,27 +6,30 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
 class SymmetrictreeTest {
+    static class Node {
+        int value;
+        Node left;
+        Node right;
+
+        public Node(int value) {
+            this.value = value;
+            this.left = null;
+            this.right = null;
+        }
+    }
+
     Solution sol;
-    int[] input;
+    Integer[] input;
     boolean expected;
 
-    TreeNode initTreeNode(int[] input) {
-        if (input.length == 0) return null;
-
-        TreeNode root = new TreeNode(input[0]);
-        int left = 0;
-        int right = 0;
-        int pow2 = 2;
-
-        for (int i = 1; i < input.length; i++) {
-            TreeNode cur = root;
-
-            int index = i;
-            while (index - pow2 > 0) {
-            }
-
+    static Node makeNodeTree(Node root, Integer[] arr, int i, int n) {
+        if (i < n && arr[i] != null) {
+            root = new Node(arr[i]);
+            root.left = makeNodeTree(root.left, arr, 2 * i + 1, n);
+            root.right = makeNodeTree(root.right, arr, 2 * i + 2, n);
         }
-        return null;
+
+        return root;
     }
 
     @BeforeEach
@@ -36,9 +39,11 @@ class SymmetrictreeTest {
 
     @Test
     void isSymmetric() {
-        input = new int[]{1, 2, 2, 3, 4, 4, 3};
+        input = new Integer[]{1, 2, 2, 3, 4, 4, 3};
         expected = true;
 
+        Node root = null;
+        root = makeNodeTree(root, input, 0, input.length);
 
     }
 }
