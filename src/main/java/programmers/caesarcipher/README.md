@@ -17,12 +17,10 @@ a B z	4	e F d
 
 
 ## 풀이
-
-
-
-## 풀이
 > Solution
-     
+###### public String solution(String s, int n)     
+대문자 범위와 소문자 범위일 때를 나누고 범위가 넘어갈 때를 위한 방어로직을 넣었습니다.    
+    
     
 ## Test    
 
