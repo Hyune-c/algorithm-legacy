@@ -22,14 +22,14 @@ clothes의 모든 원소는 문자열로 이루어져 있습니다.
 모든 문자열의 길이는 1 이상 20 이하인 자연수이고 알파벳 소문자 또는 '_' 로만 이루어져 있습니다.  
 스파이는 하루에 최소 한 개의 의상은 입습니다.
 
-## 입출력 예
+### 입출력 예
 
 
 clothes	return    
 [[yellow_hat, headgear], [blue_sunglasses, eyewear], [green_turban, headgear]]	5   
 [[crow_mask, face], [blue_sunglasses, face], [smoky_makeup, face]]	3  
 
-## 입출력 예 설명
+### 입출력 예 설명
 > 예제 #1
 
 headgear에 해당하는 의상이 yellow_hat, green_turban이고 eyewear에 해당하는 의상이 blue_sunglasses이므로 아래와 같이 5개의 조합이 가능합니다.

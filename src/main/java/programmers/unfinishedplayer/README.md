@@ -15,31 +15,34 @@ completion의 길이는 participant의 길이보다 1 작습니다.
 참가자 중에는 동명이인이 있을 수 있습니다.
 
 
-## 입출력 예
+### 입출력 예
 participant	completion	return  
 [leo, kiki, eden]	[eden, kiki]	leo  
 [marina, josipa, nikola, vinko, filipa]	[josipa, filipa, marina, nikola]	vinko  
 [mislav, stanko, mislav, ana]	[stanko, ana, mislav]	mislav  
 
 
-## 입출력 예 설명
-예제 #1
+### 입출력 예 설명
+> 예제 #1
+
 leo는 참여자 명단에는 있지만, 완주자 명단에는 없기 때문에 완주하지 못했습니다.
 
-예제 #2
+> 예제 #2
+
 vinko는 참여자 명단에는 있지만, 완주자 명단에는 없기 때문에 완주하지 못했습니다.
 
-예제 #3
+>예제 #3
+
 mislav는 참여자 명단에는 두 명이 있지만, 완주자 명단에는 한 명밖에 없기 때문에 한명은 완주하지 못했습니다.
 
 
 ## 풀이
-###### arraySolution
+###### public String arraySolution(String[] participant, String[] completion
 
 - participant 와 completion 를 정렬한다.
 - 동일한 index 에 같은 값이 존재하지 않는 케이스를 찾아 리턴합니다.
  
-###### hashSolution
+###### public String hashSolution(String[] participant, String[] completion)
 
 - participantHashMap 을 만듭니다.
     - participant 가 중복되는 경우 HashMap 의 value 를 +1 해줍니다.

@@ -11,11 +11,11 @@
 
 압축할 문자열 s가 매개변수로 주어질 때, 위에 설명한 방법으로 1개 이상 단위로 문자열을 잘라 압축하여 표현한 문자열 중 가장 짧은 것의 길이를 return 하도록 solution 함수를 완성해주세요.
 
-## 제한사항
+### 제한사항
 s의 길이는 1 이상 1,000 이하입니다.  
 s는 알파벳 소문자로만 이루어져 있습니다.
 
-## 입출력 예
+### 입출력 예
 s	result  
 "aabbaccc"	7  
 "ababcdcdababcdcd"	9  
@@ -23,27 +23,27 @@ s	result
 "abcabcabcabcdededededede"	14  
 "xababcdcdababcdcd"	17  
 
-## 입출력 예에 대한 설명
-입출력 예 #1
+### 입출력 예에 대한 설명
+> 입출력 예 #1
 
 문자열을 1개 단위로 잘라 압축했을 때 가장 짧습니다.
 
-입출력 예 #2
+> 입출력 예 #2
 
 문자열을 8개 단위로 잘라 압축했을 때 가장 짧습니다.
 
-입출력 예 #3
+> 입출력 예 #3
 
 문자열을 3개 단위로 잘라 압축했을 때 가장 짧습니다.
 
-입출력 예 #4
+> 입출력 예 #4
 
 문자열을 2개 단위로 자르면 abcabcabcabc6de 가 됩니다.  
 문자열을 3개 단위로 자르면 4abcdededededede 가 됩니다.  
 문자열을 4개 단위로 자르면 abcabcabcabc3dede 가 됩니다.  
 문자열을 6개 단위로 자를 경우 2abcabc2dedede가 되며, 이때의 길이가 14로 가장 짧습니다.  
 
-입출력 예 #5
+> 입출력 예 #5
 
 문자열은 제일 앞부터 정해진 길이만큼 잘라야 합니다.  
 따라서 주어진 문자열을 x / ababcdcd / ababcdcd 로 자르는 것은 불가능 합니다.  
@@ -51,31 +51,31 @@ s	result
 
 ## 풀이
 > StringCompression 
-###### splitN 
+###### public String splitN(int n) 
 - 입력받은 문자열을 단위에 맞게 자른 String array 를 만듭니다.
 
-###### makeMinString 
+###### public String makeMinString(String[] str) 
 - String array 를 위 조건에 맞게 압축하여 결과 String 을 만듭니다.
 
-###### getMinLength 
+###### public int getMinLength() 
 - 만들어진 결과 String 중 가장 짧은 길이를 가져옵니다.
 
 
 ## Test    
 > UnfinishedplayerTest
 
-###### before() 
+###### void before() 
 - participant, completion, result 선언.
     
-###### after()
+###### void after()
 - participant, completion 출력.
 - arraySolution, hashSolution 를 각각 실행해주며 시간을 측정한다.
 
-###### Test6
+###### void Test6
 - 이미 정렬된 최대 입력 값으로 들어올 때를 테스트. 
 - arraySolution : 37 ms, hashSolution : 73 ms
 
-###### Test7
+###### void Test7
 - 정렬되지 않은 최대 입력 값으로 들어올 때를 테스트.
 - arraySolution : 255 ms, hashSolution : 17 ms
 
