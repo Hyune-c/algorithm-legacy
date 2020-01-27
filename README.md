@@ -4,6 +4,8 @@
 
 ## programmers [링크](https://programmers.co.kr/)
 
+> Test 에 필요한 템플릿
+
 > Done
 
 [완주하지 못한 선수](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/programmers/unfinishedplayer)  
@@ -21,6 +23,10 @@
 
  
 ## leetcode [링크](https://leetcode.com/)
+
+> Test 에 필요한 템플릿
+
+[링크](https://github.com/Hyune-c/algorithm/blob/master/src/test/java/leetcode/README.md) 
 
 > Done
 
