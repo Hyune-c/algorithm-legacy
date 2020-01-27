@@ -15,8 +15,9 @@ Output: 5->4->3->2->1->NULL
 A linked list can be reversed either iteratively or recursively. Could you implement both?
 
 ## 풀이
-###### reverse
-
+> Solution
+###### public ListNode reverseList(ListNode head)
+- reverseList 에서 head.next 를 null 로 바꾸지만, 이후 재귀 종료 후 second.next 를 head 로 해줌으로 인해서 reverse 를 구현할 수 있습니다.
     
 ## Test    
 > SolutionTest
