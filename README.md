@@ -1,10 +1,13 @@
 # algorithm
-> source file path : algorithm/src/main/java/
+> source file path : algorithm/src/main/java/  
+> test file path : algorithm/src/test/java/
+
+> Test 에 유용한 템플릿
+
+[leetcode](https://github.com/Hyune-c/algorithm/blob/master/src/test/java/leetcode/README.md) 
 
 
 ## programmers [링크](https://programmers.co.kr/)
-
-> Test 에 필요한 템플릿
 
 > Done
 
@@ -23,10 +26,6 @@
 
  
 ## leetcode [링크](https://leetcode.com/)
-
-> Test 에 필요한 템플릿
-
-[링크](https://github.com/Hyune-c/algorithm/blob/master/src/test/java/leetcode/README.md) 
 
 > Done
 
