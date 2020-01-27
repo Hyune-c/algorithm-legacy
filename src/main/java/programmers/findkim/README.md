@@ -19,8 +19,7 @@ seoul	return
 
 ## 풀이
 > Solution
-###### public int solution(String dartResult)     
-S, D, T 를 구분자로 각 다트 시행의 값을 구합니다.     
+###### public String solution(String[] seoul)     
     
     
 ## Test    

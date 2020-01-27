@@ -10,13 +10,4 @@ public class Solution {
 
         return null;
     }
-
-    public static void main(String[] args) {
-        Solution sol = new Solution();
-        String[] seoul = {"Jane", "Kim"};
-
-        String result = sol.solution(seoul);
-
-        System.out.println(result);
-    }
 }
