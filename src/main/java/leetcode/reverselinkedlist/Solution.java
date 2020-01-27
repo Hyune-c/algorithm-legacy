@@ -2,16 +2,20 @@ package leetcode.reverselinkedlist;
 
 class Solution {
     public ListNode reverseList(ListNode head) {
-        if (head.next == null || head == null) return head;
-        else if(head.next.next == null){
-            head.next.next = head.next;
-            head.next = null;
+        if (head == null || head.next == null)
+            return head;
+
+        ListNode p1 = head;
+        ListNode p2 = p1.next;
+        head.next = null;
+
+        while (p1 != null && p2 != null) {
+            ListNode t = p2.next;
+            p2.next = p1;
+            p1 = p2;
+            p2 = t;
         }
 
-        ListNode cur = head;
-        ListNode curNext = head.next;
-        ListNode curNextNext = head.next.next;
-
-        return null;
+        return p1;
     }
 }
