@@ -34,7 +34,8 @@ d	budget	result
 
 
 ## 풀이
-- 제일 작은 금액부터 채워주면 됩니다.
+입력 값 d 를 정렬한 후 순회하면서 budget 에서 값을 빼 줍니다.
+budget 이 0 미만으로 내려가면 index 를 return 합니다.
 
 
 ## 풀이
