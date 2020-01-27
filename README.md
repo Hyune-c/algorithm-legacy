@@ -43,8 +43,6 @@
 [581. Shortest Unsorted Continuous Subarray](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/shortestunsortedcontinuoussubarray)
 
 > Unfinished
-  
-[198. House Robber](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/houserobber)  
 
 
 # baekjoon [링크](https://www.acmicpc.net/)
