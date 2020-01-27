@@ -22,11 +22,11 @@ class SymmetrictreeTest {
     Integer[] input;
     boolean expected;
 
-    static Node makeNodeTree(Node root, Integer[] arr, int i, int n) {
-        if (i < n && arr[i] != null) {
+    Node makeNodeTree(Node root, Integer[] arr, int i) {
+        if (i < arr.length && arr[i] != null) {
             root = new Node(arr[i]);
-            root.left = makeNodeTree(root.left, arr, 2 * i + 1, n);
-            root.right = makeNodeTree(root.right, arr, 2 * i + 2, n);
+            root.left = makeNodeTree(root.left, arr, 2 * i + 1);
+            root.right = makeNodeTree(root.right, arr, 2 * i + 2);
         }
 
         return root;
@@ -43,7 +43,7 @@ class SymmetrictreeTest {
         expected = true;
 
         Node root = null;
-        root = makeNodeTree(root, input, 0, input.length);
+        root = makeNodeTree(root, input, 0);
 
     }
 }
