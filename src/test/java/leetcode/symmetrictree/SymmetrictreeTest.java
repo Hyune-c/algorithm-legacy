@@ -23,8 +23,8 @@ class SymmetrictreeTest {
     TreeNode makeNodeTree(TreeNode root, Integer[] arr, int i) {
         if (i < arr.length && arr[i] != null) {
             root = new TreeNode(arr[i]);
-            root.left = makeNodeTree(root.left, arr, 2 * i + 1);
-            root.right = makeNodeTree(root.right, arr, 2 * i + 2);
+            root.left = (arr[2 * i + 1] == null) ? null : makeNodeTree(root.left, arr, 2 * i + 1);
+            root.right = (arr[2 * i + 2] == null) ? null : makeNodeTree(root.right, arr, 2 * i + 2);
         }
 
         return root;
@@ -47,15 +47,17 @@ class SymmetrictreeTest {
     @Test
     void isSymmetric() {
         input = new Integer[]{1, 2, 2, 3, 4, 4, 3};
-        Integer[] input2 = new Integer[]{1, 2, 2, 3, 4, 4, 3};
+//        Integer[] input2 = new Integer[]{1, 2, 2, 3, 4, 4, 3};
         expected = true;
 
         TreeNode root = null;
         root = makeNodeTree(root, input, 0);
 
-        TreeNode root2 = null;
-        root2 = makeNodeTree(root2, input2, 0);
+//        TreeNode root2 = null;
+//        root2 = makeNodeTree(root2, input2, 0);
 
-        assertTrue(isSameTree(root, root2));
+//        assertTrue(isSameTree(root, root2));
+
+        sol.isSymmetric(root);
     }
 }

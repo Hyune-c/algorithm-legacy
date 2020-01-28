@@ -1,7 +1,6 @@
 package leetcode.symmetrictree;
 
-import java.util.HashMap;
-import java.util.Map;
+import java.util.*;
 
 /**
  * Definition for a binary tree node.
@@ -14,21 +13,30 @@ import java.util.Map;
  */
 
 public class Solution {
-    public int InorderLeft(TreeNode node) {
-        if (node.left != null) {
-            return InorderLeft(node.left);
+    Queue<Integer> inorderQueue = new LinkedList<>();
+    Queue<Integer> rightorderQueue = new LinkedList<>();
+
+    public void inorder(TreeNode node) {
+        if (node != null) {
+            inorder(node.left);
+            inorderQueue.add(node.val);
+            inorder(node.right);
         }
-        return node.val;
-//        if (node.right != null) {
-//            return InorderLeft(node.right);
-//        }
     }
 
-    public int InorderRight(TreeNode node) {
-        return 0;
+    public void rightorder(TreeNode node) {
+        if (node != null) {
+            rightorder(node.right);
+            rightorderQueue.add(node.val);
+            rightorder(node.left);
+        }
     }
 
     public boolean isSymmetric(TreeNode root) {
+        rightorder(root.right);
+        inorder(root.left);
+
+
         return true;
     }
 }
