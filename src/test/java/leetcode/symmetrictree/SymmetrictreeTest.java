@@ -46,6 +46,17 @@ class SymmetrictreeTest {
         TreeNode root = null;
         root = makeNodeTree(root, input, 0);
 
-        assertTrue(sol.isSymmetric(root));
+        assertEquals(expected, sol.isSymmetric(root));
+    }
+
+    @Test
+    void isSymmetric2() {
+        input = new Integer[]{1, 2, 2, 2, null, 2};
+        expected = false;
+
+        TreeNode root = null;
+        root = makeNodeTree(root, input, 0);
+
+        assertEquals(expected, sol.isSymmetric(root));
     }
 }
