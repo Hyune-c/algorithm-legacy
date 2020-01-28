@@ -15,9 +15,9 @@ class SymmetrictreeTest {
         if (i < arr.length) {
             TreeNode temp = new TreeNode(arr[i]);
             root = temp;
-            root.left = (2 * i + 1 < arr.length && arr[2 * i + 1] != null)
+            root.left = (2 * i + 1 < arr.length)
                     ? makeNodeTree(root.left, arr, 2 * i + 1) : null;
-            root.right = (2 * i + 2 < arr.length && arr[2 * i + 2] != null)
+            root.right = (2 * i + 2 < arr.length)
                     ? makeNodeTree(root.right, arr, 2 * i + 2) : null;
         }
 
@@ -57,6 +57,18 @@ class SymmetrictreeTest {
         TreeNode root = null;
         root = makeNodeTree(root, input, 0);
 
+        assertEquals(expected, sol.isSymmetric(root));
+    }
+
+    @Test
+    void isSymmetric3() {
+        input = new Integer[]{1, 2, 2, null, 3, null, 3};
+        expected = false;
+
+        TreeNode root = null;
+        root = makeNodeTree(root, input, 0);
+
+        System.out.println(sol.isSymmetric(root));
         assertEquals(expected, sol.isSymmetric(root));
     }
 }
