@@ -2,16 +2,6 @@ package leetcode.symmetrictree;
 
 import java.util.*;
 
-/**
- * Definition for a binary tree node.
- * public class TreeNode {
- * int val;
- * TreeNode left;
- * TreeNode right;
- * TreeNode(int x) { val = x; }
- * }
- */
-
 public class Solution {
     Queue<Integer> inorderQueue = new LinkedList<>();
     Queue<Integer> rightorderQueue = new LinkedList<>();
@@ -35,6 +25,14 @@ public class Solution {
     public boolean isSymmetric(TreeNode root) {
         rightorder(root.right);
         inorder(root.left);
+
+        try {
+            while (!inorderQueue.isEmpty()) {
+                if (inorderQueue.poll() != rightorderQueue.poll()) return false;
+            }
+        } catch (Exception e) {
+            return false;
+        }
 
 
         return true;
