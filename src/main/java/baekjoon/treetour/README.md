@@ -1,5 +1,5 @@
-# 수 정렬하기 3
-[링크](https://www.acmicpc.net/problem/10989)
+# 트리 순회 
+[링크](https://www.acmicpc.net/problem/1991)
 
 ## 문제
 이진 트리를 입력받아 전위 순회(preorder traversal), 중위 순회(inorder traversal), 후위 순회(postorder traversal)한 결과를 출력하는 프로그램을 작성하시오.
