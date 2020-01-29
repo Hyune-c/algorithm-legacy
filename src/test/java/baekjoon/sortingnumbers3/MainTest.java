@@ -1,5 +1,6 @@
 package baekjoon.sortingnumbers3;
 
+import baekjoon.sortingnumbers3.Main;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
@@ -8,8 +9,6 @@ import java.io.ByteArrayInputStream;
 import java.io.InputStreamReader;
 import java.util.Arrays;
 import java.util.Scanner;
-
-import static org.junit.jupiter.api.Assertions.*;
 
 class MainTest {
     static Main m = new Main();
