@@ -47,9 +47,9 @@ public class Main {
 
             int nodeIndex = inputString[0].charAt(0) - 'A';
 
-            nodeArr[nodeIndex] = new Node(inputString[0]
-                    , (inputString[1].charAt(0) == '.') ? null : nodeArr[inputString[1].charAt(0) - 'A']
-                    , (inputString[2].charAt(0) == '.') ? null : nodeArr[inputString[2].charAt(0) - 'A']);
+            nodeArr[nodeIndex] = new Node(input[i].charAt(0) + ""
+                    , (input[i].charAt(2) == '.') ? null : nodeArr[inputString[1].charAt(0) - 'A']
+                    , (input[i].charAt(4) == '.') ? null : nodeArr[inputString[2].charAt(0) - 'A']);
         }
 
         return nodeArr[0];

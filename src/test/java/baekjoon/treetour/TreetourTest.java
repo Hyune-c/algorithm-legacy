@@ -3,7 +3,7 @@ package baekjoon.treetour;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 
-import java.io.ByteArrayInputStream;
+import java.io.*;
 import java.util.Arrays;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -18,38 +18,33 @@ class TreetourTest {
 
     @Test
     void treetour() throws Exception {
-        String[] inputArr = new String[]{
-                "7"
-                , "A B C"
-                , "B D ."
-                , "C E F"
-                , "E . ."
-                , "F . G"
-                , "D . ."
-                , "G . ."
-        };
-        String inputString = Arrays.toString(inputArr).replaceAll("\\[", "").replaceAll("\\]", "").replaceAll(", ", "\n");
-        System.setIn(new ByteArrayInputStream(inputString.getBytes()));
+        String input = "7\n" + "A B C\n" + "B D .\n" + "C E F\n" + "E . .\n" + "F . G\n" + "D . .\n" + "G . .";
+        String expected = "ABDCEFG\n" + "DBAECFG\n" + "DBEGFCA";
 
-        main.main(null);
+        InputStream in = new ByteArrayInputStream(input.getBytes());
+        ByteArrayOutputStream out = new ByteArrayOutputStream();
+
+        System.setIn(in);
+        System.setOut(new PrintStream(out));
+
+        Main.main(null);
+
+        assertEquals(expected, out.toString());
     }
 
     @Test
     void treetour2() throws Exception {
-        String[] inputArr = new String[]{
-                "7"
-                , "A B C"
-                , "B D E"
-                , "C F G"
-                , "D . ."
-                , "E . ."
-                , "F . ."
-                , "G . ."
-        };
-        String inputString = Arrays.toString(inputArr).replaceAll("\\[", "").replaceAll("\\]", "").replaceAll(", ", "\n");
-        System.setIn(new ByteArrayInputStream(inputString.getBytes()));
+        String input = "7\n" + "A B C\n" + "B D E\n" + "C F G\n" + "D . .\n" + "E . .\n" + "F . .\n" + "G . .";
+        String expected = "ABDECFG\n" + "DBEAFCG\n" + "DEBFGCA";
 
-        main.main(null);
+        InputStream in = new ByteArrayInputStream(input.getBytes());
+        ByteArrayOutputStream out = new ByteArrayOutputStream();
+
+        System.setIn(in);
+        System.setOut(new PrintStream(out));
+
+        Main.main(null);
+
+        assertEquals(expected, out.toString());
     }
-
 }
