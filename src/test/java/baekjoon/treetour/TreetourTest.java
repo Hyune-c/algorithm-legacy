@@ -8,7 +8,7 @@ import java.util.Arrays;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class treetourTest {
+class TreetourTest {
     static Main main;
 
     @BeforeAll
