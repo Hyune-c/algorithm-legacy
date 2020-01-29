@@ -58,25 +58,16 @@ public class Main {
     public static String[] getInput(boolean needInputLength) {
         try {
             BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-
             int inputLength = Integer.parseInt(br.readLine());
-            String[] inputString;
-            int index;
+            String[] inputString = new String[(needInputLength == true) ? inputLength + 1 : inputLength];
 
-            if (needInputLength) {
-                inputString = new String[inputLength + 1];
-                inputString[0] = inputLength + "";
-                index = 1;
-            } else {
-                inputString = new String[inputLength];
-                index = 0;
+            if ((needInputLength == true)) {
+                inputString[inputLength] = inputLength + "";
             }
 
-            for (; index < inputLength; index++) {
+            for (int index = 0; index < inputLength; index++) {
                 inputString[index] = br.readLine();
             }
-
-            br.close();
 
             return inputString;
         } catch (Exception e) {
