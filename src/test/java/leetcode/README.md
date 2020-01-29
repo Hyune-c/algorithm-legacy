@@ -1,4 +1,4 @@
-# LeetCode 단위 테스트에 유용한 템플릿
+# leetcode 단위 테스트에 유용한 템플릿
 
 > List
 [reverselinkedlist](https://github.com/Hyune-c/algorithm/blob/master/src/test/java/leetcode/reverselinkedlist/ReverselinkedlistTest.java)

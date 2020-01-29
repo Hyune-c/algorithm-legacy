@@ -1,19 +1,16 @@
-# Backjoon 단위 테스트에 유용한 템플릿
+# backjoon 단위 테스트에 유용한 템플릿
 
 > 입력 값 받기
-[reverselinkedlist](https://github.com/Hyune-c/algorithm/blob/master/src/test/java/leetcode/reverselinkedlist/ReverselinkedlistTest.java)
+[reverselinkedlist](https://github.com/Hyune-c/algorithm/blob/master/src/test/java/baekjoon/template/TemplateTest.java)
 
-###### ListNode makeListNode(int[] input) 
-input 의 값을 가진 single linked list 를 만듭니다.
-
-###### boolean isSameListNodes(ListNode nodeA, ListNode nodeB)
-nodaA 와 nodeB 를 headnode 로 가지는 linkedList 가 같은지 확인합니다.
-
-> Tree
-[symmetrictree](https://github.com/Hyune-c/algorithm/blob/master/src/test/java/leetcode/symmetrictree/SymmetrictreeTest.java)
-  
-###### TreeNode makeNodeTree(TreeNode root, Integer[] arr, int i) 
-재귀적으로 NodeTree 를 만듭니다. i 값은 arr 배열의 index 로 초기 값은 0 입니다.  
-
-###### public boolean isSameTree(TreeNode nodeA, TreeNode nodeB)
-각 Tree 의 root 값을 받아 Tree 가 같은지 여부를 확인합니다.
+###### public static String[] getInput(boolean needInputLength)
+- 입력 값을 받기 위한 template 메소드로 매개 변수로 inputLength 의 필요를 체크 합니다.
+- 리턴 값으로는 입력 값이 String[] 형태가 나갑니다.
+    - needInputLength 가 true 면 String[0] 값에 inputLength 가 들어간 후 입력 값이 들어갑니다.
+    - needInputLength 가 false 면 String[] 는 입력 값으로 시작합니다.
+    
+    
+## 보완 해야할 점 & 리팩토링
+- inputLength 가 return 에 포함되어야 할 때 처리할 수 있는 더 좋은 방법이 있는가?
+    - LinkedList 등의 사용을 고려했으나, 속도 때문에 Scanner 도 사용하지 않는 판국임으로 배열 (or 배열보다 빠른) 로 해보자.
+- if 문과 for 문을 한줄로 표현해야 하는가? 

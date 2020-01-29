@@ -1,6 +1,5 @@
 package baekjoon.template;
 
-import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 
 import java.io.BufferedReader;
@@ -9,34 +8,21 @@ import java.io.InputStreamReader;
 import java.util.Arrays;
 
 class TemplateTest {
-    @BeforeAll
-    static void beforeAll() {
-    }
-
     public static String[] getInput(boolean needInputLength) {
         try {
             BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-
             int inputLength = Integer.parseInt(br.readLine());
-            int returnLength = (needInputLength) ? inputLength + 1 : inputLength;
+            String[] inputString = new String[(needInputLength == true) ? inputLength + 1 : inputLength];
 
-            String[] inputString = new String[returnLength];
-
-            inputString[inputString.length - 1] = inputLength + "";
+            if ((needInputLength == true)) {
+                inputString[inputLength] = inputLength + "";
+            }
 
             for (int index = 0; index < inputLength; index++) {
                 inputString[index] = br.readLine();
             }
 
-//            String line;
-//            while ((line = br.readLine()) != null) {
-//                System.out.println(line);
-//            }
-//
-//            br.close();
-
             return inputString;
-//            return null;
         } catch (Exception e) {
             System.out.println("### input fail");
             return null;
