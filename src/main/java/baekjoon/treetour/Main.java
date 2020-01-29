@@ -40,19 +40,19 @@ public class Main {
     }
 
     public Node makeTree(String[] input) {
-        Node[] NodeList = new Node[26];
+        Node[] nodeArr = new Node[26];
 
         for (int i = input.length - 1; i >= 0; i--) {
             String[] inputString = input[i].split(" ");
 
             int nodeIndex = inputString[0].charAt(0) - 'A';
 
-            NodeList[nodeIndex] = new Node(inputString[0]
-                    , (inputString[1].charAt(0) == '.') ? null : NodeList[inputString[1].charAt(0) - 'A']
-                    , (inputString[2].charAt(0) == '.') ? null : NodeList[inputString[2].charAt(0) - 'A']);
+            nodeArr[nodeIndex] = new Node(inputString[0]
+                    , (inputString[1].charAt(0) == '.') ? null : nodeArr[inputString[1].charAt(0) - 'A']
+                    , (inputString[2].charAt(0) == '.') ? null : nodeArr[inputString[2].charAt(0) - 'A']);
         }
 
-        return NodeList[0];
+        return nodeArr[0];
     }
 
     public String[] getInput(boolean needInputLength) {
