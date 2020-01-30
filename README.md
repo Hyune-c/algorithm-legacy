@@ -53,10 +53,11 @@
 
 [581. Shortest Unsorted Continuous Subarray](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/shortestunsortedcontinuoussubarray)  
 [101. Symmetric Tree](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/mergesortedarray)
+[88. Merge Sorted Array](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/symmetrictree)
 
 > Unfinished
 
-[88. Merge Sorted Array](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/symmetrictree)
+
 
 
 # baekjoon [링크](https://www.acmicpc.net/)
