@@ -1,13 +1,25 @@
 package baekjoon.template;
 
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import java.io.BufferedReader;
-import java.io.ByteArrayInputStream;
-import java.io.InputStreamReader;
-import java.util.Arrays;
+import java.io.*;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class TemplateTest {
+    InputStream in;
+    ByteArrayOutputStream out;
+
+    String input;
+    String expected;
+
+    @BeforeEach
+    void beforeEach() {
+        out = new ByteArrayOutputStream();
+        System.setOut(new PrintStream(out));
+    }
+
     public static String[] getInput(boolean needInputLength) {
         try {
             BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -31,39 +43,29 @@ class TemplateTest {
 
     @Test
     void needInputLength_is_true() throws Exception {
-        String[] inputArr = new String[]{
-                "7"
-                , "A B C"
-                , "B D ."
-                , "C E F"
-                , "E . ."
-                , "F . G"
-                , "D . ."
-                , "G . ."
-        };
-        String inputString = Arrays.toString(inputArr).replaceAll("\\[", "").replaceAll("\\]", "").replaceAll(", ", "\n");
-        System.setIn(new ByteArrayInputStream(inputString.getBytes()));
+        input = "7\n" + "A B C\n" + "B D .\n" + "C E F\n" + "E . .\n" + "F . G\n" + "D . .\n" + "G . .";
+        expected = "A B C\n" + "B D .\n" + "C E F\n" + "E . .\n" + "F . G\n" + "D . .\n" + "G . .\n" + "7\n";
+
+        in = new ByteArrayInputStream(input.getBytes());
+        System.setIn(in);
 
         for (String s : getInput(true))
             System.out.println(s);
+
+        assertEquals(expected, out.toString());
     }
 
     @Test
     void needInputLength_is_false() throws Exception {
-        String[] inputArr = new String[]{
-                "7"
-                , "A B C"
-                , "B D ."
-                , "C E F"
-                , "E . ."
-                , "F . G"
-                , "D . ."
-                , "G . ."
-        };
-        String inputString = Arrays.toString(inputArr).replaceAll("\\[", "").replaceAll("\\]", "").replaceAll(", ", "\n");
-        System.setIn(new ByteArrayInputStream(inputString.getBytes()));
+        input = "7\n" + "A B C\n" + "B D .\n" + "C E F\n" + "E . .\n" + "F . G\n" + "D . .\n" + "G . .";
+        expected = "A B C\n" + "B D .\n" + "C E F\n" + "E . .\n" + "F . G\n" + "D . .\n" + "G . .\n";
+
+        in = new ByteArrayInputStream(input.getBytes());
+        System.setIn(in);
 
         for (String s : getInput(false))
             System.out.println(s);
+
+        assertEquals(expected, out.toString());
     }
 }
