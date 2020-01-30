@@ -4,11 +4,6 @@
 
 > Test 에 유용한 템플릿
 
-asdfasdf
-asdfasda
-
-
-
 [leetcode](https://github.com/Hyune-c/algorithm/blob/master/src/test/java/leetcode)   
 [baekjoon](https://github.com/Hyune-c/algorithm/tree/master/src/test/java/baekjoon/template) 
 
