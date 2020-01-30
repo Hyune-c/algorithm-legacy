@@ -5,7 +5,7 @@
 > Test 에 유용한 템플릿
 
 [leetcode](https://github.com/Hyune-c/algorithm/blob/master/src/test/java/leetcode)   
-[baekjoon](https://github.com/Hyune-c/algorithm/tree/master/src/test/java/baekjoon/template) 
+[baekjoon](https://github.com/Hyune-c/algorithm/tree/master/src/test/java/baekjoon/template1) 
 
 ## programmers [링크](https://programmers.co.kr/)
 
