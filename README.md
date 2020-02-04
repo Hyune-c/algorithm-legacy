@@ -46,6 +46,7 @@
 [189. Rotate Array](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/rotatearray)  
 [198. House Robber](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/houserobber)    
 [202. Happy Number](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/happynumber)  
+[204. Count Primes](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/countprimes)  
 [206. Reverse Linked List](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/reverselinkedlist)  
 [234. Palindrome Linked List](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/palindromelinkedlist)  
 [283. Move Zeroes](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/movezeroes)  
