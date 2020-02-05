@@ -1,3 +1,6 @@
+# ing...
+leetcode 의 `Must Do Easy Questions` , `Easy liked 100`, codesqaud 의 추천 문제를 우선으로 풀고 있습니다.
+
 # algorithm
 > source file path : algorithm/src/main/java/  
 > test file path : algorithm/src/test/java/
