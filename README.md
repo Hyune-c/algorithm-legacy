@@ -21,7 +21,8 @@
 [예산](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/programmers/budget)  
 [시저 암호](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/programmers/caesarcipher)    
 [다트 게임](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/programmers/dartgame)   
-[서울에서 김서방 찾기](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/programmers/findkim)   
+[서울에서 김서방 찾기](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/programmers/findkim)  
+[가운데 글자 가져오기](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/programmers/middleletter)  
 
  
 ## leetcode [링크](https://leetcode.com/)
