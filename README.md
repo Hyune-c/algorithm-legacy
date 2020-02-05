@@ -1,8 +1,11 @@
+# ing...
+leetcode 의 `Must Do Easy Questions` , `Easy liked 100` 와 `codesqaud 의 추천 문제` 를 우선으로 풀고 있습니다.
+
 # algorithm
 > source file path : algorithm/src/main/java/  
 > test file path : algorithm/src/test/java/
 
-> Test 에 유용한 템플릿
+> Test Template
 
 [leetcode](https://github.com/Hyune-c/algorithm/blob/master/src/test/java/leetcode/template)   
 [baekjoon](https://github.com/Hyune-c/algorithm/tree/master/src/test/java/baekjoon/template) 
