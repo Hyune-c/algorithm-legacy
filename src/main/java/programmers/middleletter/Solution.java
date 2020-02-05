@@ -7,3 +7,4 @@ class Solution {
                 : "" + s.charAt(s.length() / 2);
     }
 }
+
