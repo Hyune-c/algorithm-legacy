@@ -1,11 +1,11 @@
-# Ing...
+# ing...
 leetcode 의 `Must Do Easy Questions` , `Easy liked 100` 와 `codesqaud 의 추천 문제` 를 우선으로 풀고 있습니다.
 
 # Commit Message Guide
 - docs, test, complete, refactor
 - `종류` : `기록이 필요한 변경이 있는 경우 작성`
 
-# algorithm
+# Algorithm
 > source file path : algorithm/src/main/java/  
 > test file path : algorithm/src/test/java/
 
@@ -14,7 +14,7 @@ leetcode 의 `Must Do Easy Questions` , `Easy liked 100` 와 `codesqaud 의 추�
 [leetcode](https://github.com/Hyune-c/algorithm/blob/master/src/test/java/leetcode/template)   
 [baekjoon](https://github.com/Hyune-c/algorithm/tree/master/src/test/java/baekjoon/template) 
 
-## programmers [링크](https://programmers.co.kr/)
+## Programmers [링크](https://programmers.co.kr/)
 
 > Done
 
@@ -32,7 +32,7 @@ leetcode 의 `Must Do Easy Questions` , `Easy liked 100` 와 `codesqaud 의 추�
 [가운데 글자 가져오기](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/programmers/middleletter)  
 
  
-## leetcode [링크](https://leetcode.com/)
+## Leetcode [링크](https://leetcode.com/)
 
 > Done
 
@@ -77,7 +77,7 @@ leetcode 의 `Must Do Easy Questions` , `Easy liked 100` 와 `codesqaud 의 추�
 
 
 
-# baekjoon [링크](https://www.acmicpc.net/)
+# Baekjoon [링크](https://www.acmicpc.net/)
 
 > Done
 
