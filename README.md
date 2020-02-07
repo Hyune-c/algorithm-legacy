@@ -3,7 +3,7 @@ leetcode 의 `Must Do Easy Questions` , `Easy liked 100` 와 `codesqaud 의 추�
 
 # Commit Message Guide
 - docs, test, complete, refactor
-- `종류` : `변경이 있는 경우 내용 요약`
+- `종류` : `기록이 필요한 변경이 있는 경우 작성`
 
 # algorithm
 > source file path : algorithm/src/main/java/  
