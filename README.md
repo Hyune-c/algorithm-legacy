@@ -59,7 +59,8 @@ leetcode 의 `Must Do Easy Questions` , `Easy liked 100` 와 `codesqaud 의 추�
 [448. Find All Numbers Disappeared in an Array](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/findallnumbersdisappearedinanarray)    
 [605. Can Place Flowers](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/canplaceflowers)  
 [703. Kth Largest Element in a Stream](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/kthlargestelement)  
-[705. Design HashSet](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/designhashSet)
+[705. Design HashSet](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/designhashSet)  
+[849. Maximize Distance to Closest Person](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/maximizedistancetoclosestperson)  
 
 > Try It Again
 
