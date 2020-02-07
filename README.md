@@ -2,8 +2,8 @@
 leetcode 의 `Must Do Easy Questions` , `Easy liked 100` 와 `codesqaud 의 추천 문제` 를 우선으로 풀고 있습니다.
 
 # Commit Message Guide
-- doc, test, complete, refactor
-- refactor : `리팩토링 내용 요약`
+- docs, test, complete, refactor
+- `종류` : `변경이 있는 경우 내용 요약`
 
 # algorithm
 > source file path : algorithm/src/main/java/  
