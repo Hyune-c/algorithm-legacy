@@ -15,3 +15,5 @@ class Solution {
         return Math.max(nums[nums.length - 1], nums[nums.length - 2]);
     }
 }
+
+
