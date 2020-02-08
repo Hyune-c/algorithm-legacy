@@ -1,5 +1,6 @@
 # ing...
-leetcode 의 `Must Do Easy Questions` , `Easy liked 100` 와 `codesqaud 의 추천 문제` 를 우선으로 풀고 있습니다.
+- leetcode 의 `Must Do Easy Questions` , `Easy liked 100` 와 `codesqaud 의 추천 문제` 를 우선으로 풀고 있습니다.
+- 알고리즘 통과를 위한 극단적인 배열, 알고리즘 사용보다는 적절한 자료 구조와 알고리즘 사용을 목표로 하고 있습니다.  
 
 # Commit Message Guide
 - complete, refactor
@@ -55,6 +56,7 @@ leetcode 의 `Must Do Easy Questions` , `Easy liked 100` 와 `codesqaud 의 추�
 [198. House Robber](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/houserobber)    
 [202. Happy Number](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/happynumber)  
 [204. Count Primes](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/countprimes)  
+[205. Isomorphic Strings](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/isomorphicstrings)  
 [206. Reverse Linked List](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/reverselinkedlist)  
 [234. Palindrome Linked List](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/palindromelinkedlist)    
 [242. Valid Anagram](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/validanagram)  
