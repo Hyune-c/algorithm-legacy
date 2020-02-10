@@ -21,16 +21,9 @@ Explanation: The longest continuous increasing subsequence is [2], its length is
 ```
 
 ## 풀이
-###### public boolean isMatchedBracket(char bracket1, char bracket2) 
-- 괄호의 쌍이 맞는지 검사합니다.
-
-
-###### public boolean isValid(String s) 
-- 입력값을 앞부터 검사하여 열린 괄호인 경우 bracketsQueue 에 add 해줍니다.
-    - 열린 괄호가 아닌 경우 pop 한 값이 닫는 괄호가 아닌 경우 false 를 리턴 합니다.
-- 입력값에 대한 검사가 끝났는데도 bracketsQueue 가 남아있다면 false 를 리턴 합니다.
-- 입력값이 닫는 괄호로 시작하는 경우 bracketsQueue 가 빈 상태로 pop 하여 에러가 발생하는데 try-catch 문을 통해 잡아줍니다. 
- 
+###### public int findLengthOfLCIS(int[] nums)  
+- 배열을 순회하며 increasing 한 경우 curCount++ 해줍니다.
+- increasing 하지 않은 경우를 만날 경우 Math.max(curCount, longestCount) 를 통해 longestCount 를 갱신해줍니다.
 
 ## Test    
 
