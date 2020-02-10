@@ -69,6 +69,7 @@
 [703. Kth Largest Element in a Stream](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/kthlargestelement)  
 [705. Design HashSet](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/designhashSet)  
 [849. Maximize Distance to Closest Person](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/maximizedistancetoclosestperson)  
+[852. Peak Index in a Mountain Array](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/peakindexinamountainarray)  
 
 > Try It Again
 
