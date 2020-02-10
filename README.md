@@ -34,7 +34,7 @@
 
 > Good
 
-> Not Good
+> Bad
 
 > Try It Again
 
@@ -79,7 +79,9 @@
 
 > Good
 
-> Not Good
+[1160. Find Words That Can Be Formed by Characters](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/findwordsthatcanbeformedbycharacters)
+
+> Bad
 
 [852. Peak Index in a Mountain Array](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/peakindexinamountainarray)  
 
@@ -103,7 +105,7 @@
 
 > Good
 
-> Not Good
+> Bad
 
 > Try It Again
 
