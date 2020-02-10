@@ -1,24 +1,25 @@
 package leetcode.nondecreasingarray;
 
+import java.util.Arrays;
+
 class Solution {
+  public int getMid(int a, int b, int c) {
+    int[] tmp = new int[]{a, b, c};
+    Arrays.sort(tmp);
+    return tmp[1];
+  }
+
   public boolean checkPossibility(int[] nums) {
     if (nums.length == 1) return true;
 
-    int alreadyModified = 0;
+    int flag = Integer.MIN_VALUE;
 
-    if (nums[0] > nums[1]) {
-      alreadyModified++;
-      nums[0] = Integer.MIN_VALUE;
+    if(nums[0] > nums[1]){
+//      flag =
     }
 
-    for (int i = 1; i < nums.length; i++) {
-      if (nums[i - 1] > nums[i]) {
-        if (alreadyModified == 2)
-          return false;
-        alreadyModified++;
-        nums[i] = nums[i - 1];
-        i--;
-      }
+    for(int i = 1; i < nums.length; i++){
+//      if()
     }
 
     return true;
