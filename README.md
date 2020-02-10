@@ -32,6 +32,13 @@
 [서울에서 김서방 찾기](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/programmers/findkim)  
 [가운데 글자 가져오기](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/programmers/middleletter)  
 
+> Good
+
+> Not Good
+
+> Try It Again
+
+> Unfinished
  
 ## Leetcode [링크](https://leetcode.com/)
 
@@ -69,12 +76,17 @@
 [703. Kth Largest Element in a Stream](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/kthlargestelement)  
 [705. Design HashSet](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/designhashSet)  
 [849. Maximize Distance to Closest Person](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/maximizedistancetoclosestperson)  
+
+> Good
+
+> Not Good
+
 [852. Peak Index in a Mountain Array](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/peakindexinamountainarray)  
 
 > Try It Again
 
 [581. Shortest Unsorted Continuous Subarray](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/shortestunsortedcontinuoussubarray)  
-[101. Symmetric Tree](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/mergesortedarray)
+[101. Symmetric Tree](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/mergesortedarray)  
 [88. Merge Sorted Array](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/symmetrictree)
 
 > Unfinished
@@ -88,3 +100,11 @@
 
 [10989. 수 정렬하기 3](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/baekjoon/sortingnumbers3)  
 [1991. 트리 순회](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/baekjoon/treetour)
+
+> Good
+
+> Not Good
+
+> Try It Again
+
+> Unfinished
