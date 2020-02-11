@@ -1,4 +1,4 @@
-package sumoftwointegers;
+package leetcode.sumoftwointegers;
 
 class Solution {
     public int getSum(int a, int b) {
