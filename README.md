@@ -65,6 +65,7 @@
 [204. Count Primes](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/countprimes)  
 [205. Isomorphic Strings](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/isomorphicstrings)  
 [206. Reverse Linked List](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/reverselinkedlist)  
+[226. Invert Binary Tree](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/invertbinarytree)  
 [234. Palindrome Linked List](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/palindromelinkedlist)    
 [242. Valid Anagram](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/validanagram)  
 [283. Move Zeroes](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/movezeroes)    
