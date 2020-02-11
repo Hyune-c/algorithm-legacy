@@ -10,9 +10,3 @@ input 의 값을 가진 single linked list 를 만듭니다.
 nodaA 와 nodeB 를 headnode 로 가지는 linkedList 가 같은지 확인합니다.
 
 > Tree [링크](https://github.com/Hyune-c/algorithm/blob/master/src/test/java/leetcode/template/tree)
-  
-###### public TreeNode makeNodeTree(TreeNode root, int[] arr, int i) 
-재귀적으로 NodeTree 를 만듭니다. i 값은 arr 배열의 index 로 초기 값은 0 입니다.  
-
-###### public boolean isSameTree(TreeNode nodeA, TreeNode nodeB)
-각 Tree 의 root 값을 받아 Tree 가 같은지 여부를 확인합니다.
