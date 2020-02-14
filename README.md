@@ -71,10 +71,11 @@
 [283. Move Zeroes](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/movezeroes)    
 [371. Sum of Two Integers](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/sumoftwointegers)    
 [448. Find All Numbers Disappeared in an Array](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/findallnumbersdisappearedinanarray)    
-[557. Reverse Words in a String III](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/reversewordsinastringIII)    
-[572. Subtree of Another Tree](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/subtreeofanothertree)    
+[557. Reverse Words in a String III](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/reversewordsinastringIII)      
+[572. Subtree of Another Tree](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/subtreeofanothertree)  
+[589. N-ary Tree Preorder Traversal](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/narytreepreordertraversal)     
 [605. Can Place Flowers](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/canplaceflowers)      
-[674. Longest Continuous Increasing Subsequence](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/longestcontinuousincreasingsubsequence)    
+[674. Longest Continuous Increasing Subsequence](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/longestcontinuousincreasingsubsequence)        
 [703. Kth Largest Element in a Stream](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/kthlargestelement)  
 [705. Design HashSet](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/designhashSet)  
 [849. Maximize Distance to Closest Person](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/maximizedistancetoclosestperson)  
@@ -91,12 +92,13 @@
 
 > Try It Again
 
-[581. Shortest Unsorted Continuous Subarray](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/shortestunsortedcontinuoussubarray)  
+[88. Merge Sorted Array](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/symmetrictree)  
 [101. Symmetric Tree](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/mergesortedarray)  
-[88. Merge Sorted Array](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/symmetrictree)
+[581. Shortest Unsorted Continuous Subarray](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/shortestunsortedcontinuoussubarray)  
+[669. Trim a Binary Search Tree](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/trimabinarysearchtree)
 
 > Unfinished
-
+  
 [665. Non-decreasing Array](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/nondecreasingarray)
 
 

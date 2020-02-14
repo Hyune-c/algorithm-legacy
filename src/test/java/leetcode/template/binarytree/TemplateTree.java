@@ -1,10 +1,10 @@
-package leetcode.template.tree;
+package leetcode.template.binarytree;
 
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
 
-public class TreeTemplate {
+public class TemplateTree {
   /**
    * @param root StartNode
    * @param arr  InputData
@@ -27,6 +27,16 @@ public class TreeTemplate {
     return root;
   }
 
+  public boolean isSameTree(TreeNode nodeA, TreeNode nodeB) {
+    if (nodeA == null && nodeB == null) return true;
+    if (nodeA == null || nodeB == null) return false;
+
+    if (nodeA.val != nodeB.val) return false;
+
+    return isSameTree(nodeA.left, nodeB.left) && isSameTree(nodeA.right, nodeB.right);
+  }
+
+  // 현재는 isLeftFirst
   public Integer[] getLevelOrderArray(TreeNode root, boolean isLeftFirst) {
     List<Integer> resultList = new LinkedList<>();
     Queue<TreeNode> queue = new LinkedList<>();
@@ -49,13 +59,5 @@ public class TreeTemplate {
     }
 
     return resultList.toArray(new Integer[0]);
-  }
-
-  public boolean isSameTree(TreeNode nodeA, TreeNode nodeB) {
-    if (nodeA == null && nodeB == null) return true;
-    if (nodeA == null || nodeB == null) return false;
-    if (nodeA.val != nodeB.val) return false;
-
-    return isSameTree(nodeA.left, nodeB.left) && isSameTree(nodeA.right, nodeB.right);
   }
 }

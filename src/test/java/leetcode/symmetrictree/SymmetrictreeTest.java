@@ -1,10 +1,9 @@
 package leetcode.symmetrictree;
 
-import com.sun.source.tree.Tree;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class SymmetrictreeTest {
     Solution sol;
