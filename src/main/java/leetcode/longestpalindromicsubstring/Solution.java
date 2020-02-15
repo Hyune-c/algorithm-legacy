@@ -1,39 +1,30 @@
 package leetcode.longestpalindromicsubstring;
 
-import java.util.ArrayDeque;
-import java.util.Deque;
-
 class Solution {
 
   public boolean isPalindrome(String subString) {
     if (subString.length() < 3) return true;
 
-    Deque<Character> deque = new ArrayDeque<>();
-    for (char c : subString.toCharArray()) {
-      deque.addLast(c);
-    }
-
-    while (deque.size() > 1) {
-      if (deque.pollFirst() != deque.pollLast())
-        return false;
+    for (int i = 0, j = subString.length() - 1; j - i > 0; i++, j--) {
+      if (subString.charAt(i) != subString.charAt(j)) return false;
     }
 
     return true;
   }
 
   public String longestPalindrome(String s) {
+    if (s.length() < 2) return s;
+
     String result = "";
 
-    for (int i = 0; i < s.length(); i++) {
-      for (int j = i + 1; j < s.length(); j++) {
-        if (s.charAt(i) == s.charAt(j)
-            && j - i + 1 > result.length()
-            && isPalindrome(s.substring(i, j + 1))) {
-          result = s.substring(i, j + 1);
-        }
+    for (int i = 0; result.length() < s.length() - i; i++) {
+      for (int j = s.length() - 1; result.length() < j + 1 - i; j--) {
+        result = (s.charAt(i) == s.charAt(j)
+            && isPalindrome(s.substring(i, j + 1)))
+            ? s.substring(i, j + 1) : result;
       }
     }
 
-    return (result == "" && s.length() > 0) ? s.charAt(0) + "" : result;
+    return result;
   }
 }

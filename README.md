@@ -44,7 +44,8 @@
 
 > Done
 
-[1. Two Sum](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/twosum)  
+[1. Two Sum](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/twosum)
+[5. Longest Palindromic Substring](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/longestpalindromicsubstring)  
 [7. Reverse Integer](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/reverseinteger)  
 [13. Roman to Integer](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/romantointeger)  
 [20. Valid Parentheses](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/validparentheses)  
@@ -99,7 +100,9 @@
 
 > Unfinished
   
-[665. Non-decreasing Array](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/nondecreasingarray)
+[665. Non-decreasing Array](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/nondecreasingarray)  
+[437. Path Sum III](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/pathsumIII)  
+[543. Diameter of Binary Tree](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/diameterofbinarytree)  
 
 
 # Baekjoon [링크](https://www.acmicpc.net/)
