@@ -50,7 +50,7 @@
 [11. Container With Most Water](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/containerwithmostwater)  
 [13. Roman to Integer](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/romantointeger)  
 [17. Letter Combinations of a Phone Number](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/lettercombinationsofaphonenumber)    
-[20. Valid Parentheses](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/validparentheses)
+[20. Valid Parentheses](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/validparentheses)  
 [22. Generate Parentheses](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/generateparentheses)    
 [26. Remove Duplicates from Sorted Array](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/mergetwosortedlists)  
 [53. Maximum Subarray](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/maximumsubarray)    
