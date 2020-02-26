@@ -32,8 +32,6 @@
 [서울에서 김서방 찾기](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/programmers/findkim)  
 [가운데 글자 가져오기](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/programmers/middleletter)  
 
-> Good
-
 > Bad
 
 > Try It Again
@@ -79,16 +77,12 @@
 [572. Subtree of Another Tree](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/subtreeofanothertree)  
 [589. N-ary Tree Preorder Traversal](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/narytreepreordertraversal)     
 [605. Can Place Flowers](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/canplaceflowers)      
+[617. Merge Two Binary Trees](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/mergetwobinarytrees)  
 [674. Longest Continuous Increasing Subsequence](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/longestcontinuousincreasingsubsequence)        
 [703. Kth Largest Element in a Stream](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/kthlargestelement)  
 [705. Design HashSet](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/designhashSet)  
 [849. Maximize Distance to Closest Person](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/maximizedistancetoclosestperson)  
-
-> Good
-
-[617. Merge Two Binary Trees](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/mergetwobinarytrees)  
 [1160. Find Words That Can Be Formed by Characters](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/findwordsthatcanbeformedbycharacters)  
-
 
 > Bad
 
@@ -103,6 +97,7 @@
 
 > Unfinished
       
+[24. Swap Nodes in Pairs](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/swapnodesinpairs)  
 [665. Non-decreasing Array](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/nondecreasingarray)  
 [437. Path Sum III](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/pathsumIII)  
 [543. Diameter of Binary Tree](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/diameterofbinarytree)  
@@ -114,8 +109,6 @@
 
 [10989. 수 정렬하기 3](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/baekjoon/sortingnumbers3)  
 [1991. 트리 순회](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/baekjoon/treetour)
-
-> Good
 
 > Bad
 
