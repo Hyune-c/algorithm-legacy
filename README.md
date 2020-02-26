@@ -49,7 +49,8 @@
 [13. Roman to Integer](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/romantointeger)  
 [17. Letter Combinations of a Phone Number](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/lettercombinationsofaphonenumber)    
 [20. Valid Parentheses](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/validparentheses)  
-[22. Generate Parentheses](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/generateparentheses)    
+[22. Generate Parentheses](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/generateparentheses)  
+[24. Swap Nodes in Pairs](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/swapnodesinpairs)      
 [26. Remove Duplicates from Sorted Array](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/mergetwosortedlists)  
 [53. Maximum Subarray](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/maximumsubarray)    
 [88. Merge Sorted Array](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/mergesortedarray)  
@@ -96,8 +97,7 @@
 [669. Trim a Binary Search Tree](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/trimabinarysearchtree)
 
 > Unfinished
-      
-[24. Swap Nodes in Pairs](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/swapnodesinpairs)  
+        
 [665. Non-decreasing Array](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/nondecreasingarray)  
 [437. Path Sum III](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/pathsumIII)  
 [543. Diameter of Binary Tree](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/diameterofbinarytree)  
