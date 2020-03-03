@@ -20,13 +20,15 @@ Output:
 ```
 
 ## 풀이
-> Solution
-###### public int removeDuplicates(int[] nums)
-- nums 배열을 순회하면서 index 의 값보다 큰 경우 index+1 에 값을 가져온다.
-    - 이미 정렬이 된 배열임으로 뒤로 갈수록 큰 수만 나오며, return 값이 곧 length 임으로 swap 의 필요성도 없다.
 
+1. index 는 0 부터 시작하여 입력 값 nums 의 길이까지 재귀 호출을 해줍니다.
+
+2. swap 을 도는 for 문을 시작하는 i 값은 index 로 지정합니다.
+    - 재귀적으로 호출되기에 index 이전의 값은 이미 swap 이 되었습니다. 
+
+3. 모든 케이스를 하기 위해서 재귀 호출을 한 이후에는 배열을 다시 원상태로 돌립니다.
 
 ## Test    
 
 
-## 추가로 해볼 것
+## 마치며 ..
