@@ -53,7 +53,8 @@
 [24. Swap Nodes in Pairs](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/swapnodesinpairs)      
 [26. Remove Duplicates from Sorted Array](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/mergetwosortedlists)
 [33. Search in Rotated Sorted Array](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/searchinrotatedsortedarray)  
-[46. Permutations](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/permutations)                          
+[46. Permutations](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/permutations)                  
+[48. Rotate Image](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/rotateimage)        
 [53. Maximum Subarray](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/maximumsubarray)    
 [88. Merge Sorted Array](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/mergesortedarray)  
 [104. Maximum Depth of Binary Tree](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/maximumdepthofbinarytree)    
@@ -100,8 +101,7 @@
 
 > Unfinished
         
-[31. Next Permutation](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/nextpermutation)               
-[48. Rotate Image](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/rotateimage)               
+[31. Next Permutation](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/nextpermutation)                              
 [665. Non-decreasing Array](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/nondecreasingarray)  
 [437. Path Sum III](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/pathsumIII)  
 [543. Diameter of Binary Tree](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/diameterofbinarytree)  
