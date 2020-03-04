@@ -21,9 +21,10 @@ All inputs will be in lowercase.
 The order of your output does not matter.
 
 ## 풀이
-0. 연산된 String 을 재귀적으로 전달하여 처리합니다. 
 
-1. leftCloseCount (닫는 괄호) 가 0이 되면 List 에 추가하고 return 합니다.
+1. Map 을 만들어 Key 값에 정렬된 strs 를, values 에 List<String> 을 넣습니다.  
+
+2. leftCloseCount (닫는 괄호) 가 0이 되면 List 에 추가하고 return 합니다.
  
 2. leftOpenCount (여는 괄호) 가 0 보다 큰 경우 
     - 문자열에 "(" 를 붙이고 leftOpenCount 를 1 줄여 재귀 호출 합니다.
