@@ -57,8 +57,10 @@
 [48. Rotate Image](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/rotateimage)        
 [49. Group Anagrams](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/groupanagrams)  
 [53. Maximum Subarray](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/maximumsubarray)    
-[56. Merge Intervals](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/mergeintervals)  
+[56. Merge Intervals](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/mergeintervals) 
+[75. Sort Colors](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/sortcolors)        
 [88. Merge Sorted Array](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/mergesortedarray)  
+[94. Binary Tree Inorder Traversal](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/binarytreeinordertraversal)    
 [104. Maximum Depth of Binary Tree](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/maximumdepthofbinarytree)    
 [121. Best Time to Buy and Sell Stock](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/besttimetobuyandsellstock)  
 [136. Single Number](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/singlenumber)  
@@ -103,7 +105,7 @@
 
 > Unfinished
         
-[31. Next Permutation](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/nextpermutation)                                                            
+[31. Next Permutation](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/nextpermutation)                                
 [665. Non-decreasing Array](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/nondecreasingarray)  
 [437. Path Sum III](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/pathsumIII)  
 [543. Diameter of Binary Tree](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/diameterofbinarytree)  
