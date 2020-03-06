@@ -3,26 +3,25 @@ package leetcode.lrucache;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
-class LRUCache {
+class LRUCache extends LinkedHashMap<Integer, Integer> {
 
   private int capacity;
-  private Map<Integer, Integer> cacheMap;
 
   public LRUCache(int capacity) {
+    super(capacity, 0.75F, true);
     this.capacity = capacity;
-    this.cacheMap = new LinkedHashMap<Integer, Integer>(capacity, 0.75F, true) {
-      @Override
-      protected boolean removeEldestEntry(Map.Entry<Integer, Integer> eldest) {
-        return size() > capacity;
-      }
-    };
+  }
+
+  @Override
+  protected boolean removeEldestEntry(Map.Entry<Integer, Integer> eldest) {
+    return size() > capacity;
   }
 
   public int get(int key) {
-    return cacheMap.getOrDefault(key, -1);
+    return super.getOrDefault(key, -1);
   }
 
   public void put(int key, int value) {
-    cacheMap.put(key, value);
+    super.put(key, value);
   }
 }
