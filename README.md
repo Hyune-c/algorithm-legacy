@@ -106,6 +106,7 @@
 > Unfinished
         
 [31. Next Permutation](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/nextpermutation)                                
+[146. LRU Cache](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/lrucache)                                
 [665. Non-decreasing Array](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/nondecreasingarray)  
 [437. Path Sum III](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/pathsumIII)  
 [543. Diameter of Binary Tree](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/diameterofbinarytree)  
