@@ -65,7 +65,14 @@
 [121. Best Time to Buy and Sell Stock](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/besttimetobuyandsellstock)  
 [136. Single Number](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/singlenumber)  
 [141. Linked List Cycle](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/linkedlistcycle)  
-[146. LRU Cache](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/lrucache)  
+| Interface  |       | Desc                                            | 구현 클래스                                 |
+| ---------- | ----- | ----------------------------------------------- | ------------------------------------------- |
+| Collection | List  | - 순서를 유지하고 저장  - 중복 저장 기능        | - ArrayList  - Vector  - LinkedList         |
+|            | Set   | - 순서를 유지하지 않고 저장  - 중복 저장 안 됨  | - HashSet  - TreeSet                        |
+|            | Queue | - FIFO(First In First Out) 구조                 | - ArrayDeque  - PriorityQueue               |
+| Map        |       | - 키와 값의 쌍으로 저장  - 키는 중복 저장 안 됨 | - HashMap, HashTable  - TreeMap, Properties |
+
+
 [155. Min Stack](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/minstack)  
 [160. Intersection of Two Linked Lists](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/intersectionoftwolinkedlists)  
 [169. Majority Element](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/majorityelement)    
