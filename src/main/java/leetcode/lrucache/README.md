@@ -30,8 +30,8 @@ cache.get(4);       // returns 4
 ```
 
 ## 풀이
-- LinkedHashMap 을 활용하여 풀었습니다.
-
+- LinkedHashMap 을 활용하여 풀었습니다.  
+https://github.com/Hyune-c/TIL/blob/master/Java/Collection%20Framework.md#-linkedhashmap
 ## Test    
 
 ## 마치며

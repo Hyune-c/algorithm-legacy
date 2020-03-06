@@ -65,6 +65,7 @@
 [121. Best Time to Buy and Sell Stock](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/besttimetobuyandsellstock)  
 [136. Single Number](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/singlenumber)  
 [141. Linked List Cycle](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/linkedlistcycle)  
+[146. LRU Cache](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/lrucache)  
 [155. Min Stack](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/minstack)  
 [160. Intersection of Two Linked Lists](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/intersectionoftwolinkedlists)  
 [169. Majority Element](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/majorityelement)    
@@ -105,8 +106,7 @@
 
 > Unfinished
         
-[31. Next Permutation](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/nextpermutation)                                
-[146. LRU Cache](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/lrucache)                                
+[31. Next Permutation](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/nextpermutation)                                                           
 [665. Non-decreasing Array](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/nondecreasingarray)  
 [437. Path Sum III](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/pathsumIII)  
 [543. Diameter of Binary Tree](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/diameterofbinarytree)  
