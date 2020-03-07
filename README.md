@@ -64,15 +64,9 @@
 [104. Maximum Depth of Binary Tree](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/maximumdepthofbinarytree)    
 [121. Best Time to Buy and Sell Stock](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/besttimetobuyandsellstock)  
 [136. Single Number](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/singlenumber)  
-[141. Linked List Cycle](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/linkedlistcycle)  
-| Interface  |       | Desc                                            | 구현 클래스                                 |
-| ---------- | ----- | ----------------------------------------------- | ------------------------------------------- |
-| Collection | List  | - 순서를 유지하고 저장  - 중복 저장 기능        | - ArrayList  - Vector  - LinkedList         |
-|            | Set   | - 순서를 유지하지 않고 저장  - 중복 저장 안 됨  | - HashSet  - TreeSet                        |
-|            | Queue | - FIFO(First In First Out) 구조                 | - ArrayDeque  - PriorityQueue               |
-| Map        |       | - 키와 값의 쌍으로 저장  - 키는 중복 저장 안 됨 | - HashMap, HashTable  - TreeMap, Properties |
-
-
+[141. Linked List Cycle](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/linkedlistcycle)
+[146. LRU Cache](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/lrucache)
+[151. Reverse Words in a String](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/reversewordsinastring)      
 [155. Min Stack](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/minstack)  
 [160. Intersection of Two Linked Lists](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/intersectionoftwolinkedlists)  
 [169. Majority Element](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/majorityelement)    
@@ -107,7 +101,7 @@
 > Try It Again
 
 [88. Merge Sorted Array](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/symmetrictree)  
-[101. Symmetric Tree](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/mergesortedarray)  
+[101. Symmetric Tree](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/mergesortedarray)    
 [581. Shortest Unsorted Continuous Subarray](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/shortestunsortedcontinuoussubarray)  
 [669. Trim a Binary Search Tree](https://github.com/Hyune-c/algorithm/tree/master/src/main/java/leetcode/trimabinarysearchtree)
 
