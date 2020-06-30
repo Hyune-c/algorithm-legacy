@@ -1,10 +1,9 @@
-# ing...
-- leetcode 의 `Must Do Easy Questions` , `Easy liked 100` 와 `codesqaud 의 추천 문제` 를 우선으로 풀고 있습니다.
-- 알고리즘 통과를 위한 극단적인 배열, 알고리즘 사용보다는 적절한 자료 구조와 알고리즘 사용을 목표로 하고 있습니다.  
+# algorithm-legacy
 
-# Commit Message Guide
-- complete, refactor
-- `종류` : `기록이 필요한 변경이 있는 경우 작성`
+이 저장소는 더 이상 관리되지 않습니다  
+새로운 저장소로 가주세요!
+
+<https://github.com/Hyune-c/algorithm>
 
 # Algorithm
 > source file path : algorithm/src/main/java/  
