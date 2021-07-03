@@ -1,4 +1,4 @@
-# algorithm-legacy
+# [Deprecated] algorithm
 
 이 저장소는 더 이상 관리되지 않습니다  
 새로운 저장소로 가주세요!
